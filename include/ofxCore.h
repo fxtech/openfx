@@ -817,6 +817,11 @@ typedef struct OfxPointI {
   int x, y;
 } OfxPointI;
 
+/** @brief Defines two dimensional float point */
+typedef struct OfxPointF {
+  float x, y;
+} OfxPointF;
+
 /** @brief Defines two dimensional double point */
 typedef struct OfxPointD {
   double x, y;
